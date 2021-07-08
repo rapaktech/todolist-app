@@ -69,7 +69,7 @@
         }
     }
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete']) == true) {
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete-btn']) == true) {
         if (empty($_POST["radio"])) {
             echo "Select one of the radio buttons to delete";
         } else {
