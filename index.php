@@ -102,7 +102,7 @@
 ?>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
     <h4>Add New Item To List:<h4> <input type="text" name="item" value="">
-        <span class="error">* <?php echo $itemErr;?></span>
+        <span class="error">* <?php echo $itemErr; ?></span>
         <br><br>
         <input type="submit" name="submit" value="Submit">
     </form>
